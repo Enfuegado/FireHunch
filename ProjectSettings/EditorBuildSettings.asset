@@ -8,9 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Proyect/Scenes/Menu.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Proyect/Scenes/Level1.unity
     guid: c709da7f71b98ab409d2831cd69ba8bf
+  - enabled: 1
+    path: Assets/Proyect/Scenes/ComicIntro.unity
+    guid: fe9ccfa65fdacdb429b718f4b27e062b
+  - enabled: 1
+    path: Assets/Proyect/Scenes/Bootstrap.unity
+    guid: bc08bd157c91d6c4abac450bd197e753
+  - enabled: 1
+    path: Assets/Proyect/Scenes/OfficeFloor.unity
+    guid: c8aab0b3e5506a44f809c3b6db5d9266
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
