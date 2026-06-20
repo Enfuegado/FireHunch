@@ -15,5 +15,11 @@ MonoBehaviour:
   lockPlayer: 1
   lines:
   - speakerName: Marcos
-    portrait: {fileID: 21300000, guid: 118d734e196482849b4b51626676e530, type: 3}
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
     text: "Algo no est\xE1 bien."
+  - speakerName: Valentina
+    portrait: {fileID: 21300000, guid: 118d734e196482849b4b51626676e530, type: 3}
+    text: "\xBFPorqu\xE9 lo dices?"
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: Hay humo saliendo de la puerta.

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
+  m_Name: ServerRoomDecision
+  m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  question: "\xBFQu\xE9 deber\xEDas hacer?"
+  options:
+  - optionText: Abrir la puerta para ver que ocurre
+    score: -10
+    outcomeType: 2
+    comicSequence: {fileID: 11400000, guid: 26b718a0b813e4f4dae506e62ec29983, type: 2}
+    nextScene: 
+    deathFeedback: 'Nunca debes abrir una puerta por la cual sale humo, acciona la
+      alarma y evacua. '
+  - optionText: Tocar la puerta con el dorso de la mano para medir la temperatura
+    score: 10
+    outcomeType: 1
+    comicSequence: {fileID: 11400000, guid: e1e8e2a50070f0f498a2350b9bce68e2, type: 2}
+    nextScene: IncorrectScene1
+    deathFeedback: 
+  - optionText: Accionar la alarma y evacuar
+    score: 20
+    outcomeType: 0
+    comicSequence: {fileID: 11400000, guid: 5e928f82d8af18249b08afa2df789a3e, type: 2}
+    nextScene: CorrectScene1
+    deathFeedback: 
