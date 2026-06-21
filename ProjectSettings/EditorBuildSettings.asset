@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Proyect/Scenes/Decision1/IncorrectScene1.unity
     guid: e7c876ece4e25db4c93d238d3bad9d5c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Proyect/Scenes/DeathScene.unity
     guid: 0618672186276314fb748f87d44f7b99
   - enabled: 1
