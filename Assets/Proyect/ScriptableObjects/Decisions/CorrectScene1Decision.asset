@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
+  m_Name: CorrectScene1Decision
+  m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  question: "\xBFQu\xE9 deber\xEDas hacer?"
+  options:
+  - optionText: Correr para escapar antes
+    score: -10
+    outcomeType: 2
+    comicSequence: {fileID: 11400000, guid: 65c8b7c90bbc419448df75ba9f6e1514, type: 2}
+    nextScene: 
+    deathFeedback: No corras durante un incendio, ve agachado para evitar iinhalar
+      gran parte del humo, este se acumula en el techo.
+  - optionText: Ir agachado para no inhalar el humo
+    score: 20
+    outcomeType: 0
+    comicSequence: {fileID: 11400000, guid: 920634a190b907e40ab16e52d16379d0, type: 2}
+    nextScene: CorrectScene2
+    deathFeedback: 
