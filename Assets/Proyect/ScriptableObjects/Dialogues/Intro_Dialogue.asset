@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91be276bdcb37a54a923d53a613b633d, type: 3}
-  m_Name: SmokeBreathingDialogue
+  m_Name: Intro_Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   lockPlayer: 1
   lines:
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: Me estoy ahogando
+    text: "Algo no est\xE1 bien."
   - speakerName: Valentina
     portrait: {fileID: 21300000, guid: 118d734e196482849b4b51626676e530, type: 3}
-    text: "\xBFQue hacemos?"
+    text: "\xBFPorqu\xE9 lo dices?"
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: Hay humo saliendo de la puerta.

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
-  m_Name: ServerRoomDecision
+  m_Name: Intro_PanelDecision
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
   question: "\xBFQu\xE9 deber\xEDas hacer?"
   options:

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d28a7672d91af2b4989eb2abc09a9cfe, type: 3}
-  m_Name: CorrectDecision1 2
+  m_Name: MVineta
   m_EditorClassIdentifier: Assembly-CSharp::ComicSequence
   panels:
-  - text: "Tomaste la decisi\xF3n correcta"
-    image: {fileID: 21300000, guid: 770686d0c90b4074d8ec76e402d509b8, type: 3}
+  - text: Vas a morir por el humo
+    image: {fileID: 21300000, guid: aeff492fa2c68cc448b4e03ec20283f2, type: 3}
     duration: 0
-  - text: "Bien hecho, podr\xE1s continuar"
-    image: {fileID: 21300000, guid: 23950c1e867377644b1670a31072271b, type: 3}
+  - text: Moriste por el humo
+    image: {fileID: 21300000, guid: 7a4f547bb8b73e24099ea9fb08ed3c65, type: 3}
     duration: 0
