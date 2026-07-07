@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b8e712ff30e3f7468b61b77e1cd3650, type: 3}
-  m_Name: Intro_AD
+  m_Name: L_AD
   m_EditorClassIdentifier: Assembly-CSharp::AmbientDialogueSequence
   lines:
   - speakerName: Marcos
