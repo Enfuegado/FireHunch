@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Intro_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
   question: "\xBFQu\xE9 deber\xEDas hacer?"
+  timeLimit: 10
   options:
   - optionText: Abrir la puerta para ver que ocurre
     score: -10
@@ -25,11 +26,11 @@ MonoBehaviour:
     score: 10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: e1e8e2a50070f0f498a2350b9bce68e2, type: 2}
-    nextScene: IncorrectScene1
+    nextScene: L_S
     deathFeedback: 
   - optionText: Accionar la alarma y evacuar
     score: 20
     outcomeType: 0
-    comicSequence: {fileID: 11400000, guid: 5e928f82d8af18249b08afa2df789a3e, type: 2}
-    nextScene: CorrectScene1
+    comicSequence: {fileID: 11400000, guid: 8830b48796124054ead418a98b7ccb19, type: 2}
+    nextScene: C_S
     deathFeedback: 
