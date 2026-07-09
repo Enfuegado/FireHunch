@@ -18,14 +18,14 @@ MonoBehaviour:
   - optionText: Abrir la puerta para ver que ocurre
     score: -10
     outcomeType: 2
-    comicSequence: {fileID: 11400000, guid: 26b718a0b813e4f4dae506e62ec29983, type: 2}
+    comicSequence: {fileID: 11400000, guid: fcbaefacf3b05f64aba2dbca5719901d, type: 2}
     nextScene: 
     deathFeedback: 'Nunca debes abrir una puerta por la cual sale humo, acciona la
       alarma y evacua. '
   - optionText: Tocar la puerta con el dorso de la mano para medir la temperatura
     score: 10
     outcomeType: 1
-    comicSequence: {fileID: 11400000, guid: e1e8e2a50070f0f498a2350b9bce68e2, type: 2}
+    comicSequence: {fileID: 11400000, guid: cea9f550e2b616547bed9370443423e9, type: 2}
     nextScene: L_S
     deathFeedback: 
   - optionText: Accionar la alarma y evacuar
