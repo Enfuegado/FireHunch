@@ -19,5 +19,11 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 1630049788875fb4e8b1d242c02adfe0, type: 2}
     ambientDialogue: {fileID: 11400000, guid: 2accf056749ec54458432a3785b8bb26, type: 2}
     decision: {fileID: 11400000, guid: e03fb58a21e9b7543a3b66ba965f59b5, type: 2}
+    companions: []
+  - route: L
+    sceneName: Aisle
+    dialogue: {fileID: 11400000, guid: 4c9be04e26ce9e94cb0424d34d879c1d, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: a882a5b62dcdbd242a266ece27acf73a, type: 2}
+    decision: {fileID: 11400000, guid: 8ca66c5133cdaba44b42f0365220f047, type: 2}
     companions:
     - {fileID: 11400000, guid: f97251db86cfa294e8ee218187ff06b1, type: 2}
