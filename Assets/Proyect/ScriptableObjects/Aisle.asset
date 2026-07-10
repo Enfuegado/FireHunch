@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6e067a76b4a46243bbd9aeda13154b7, type: 3}
-  m_Name: Office_Start
+  m_Name: Aisle
   m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
-  nodeID: OfficeFloor
+  nodeID: Aisle
   rules:
-  - route: 
-    sceneName: OfficeFloor
-    dialogue: {fileID: 11400000, guid: 7c92552e53c35d04f93c3e59663d6d63, type: 2}
-    ambientDialogue: {fileID: 11400000, guid: d27f29c97e7cb5f43862c9ffa5418d6c, type: 2}
-    decision: {fileID: 11400000, guid: 11ff5ebf6ffd67b44b738d692fbcf78a, type: 2}
+  - route: C
+    sceneName: Aisle
+    dialogue: {fileID: 11400000, guid: 1630049788875fb4e8b1d242c02adfe0, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 2accf056749ec54458432a3785b8bb26, type: 2}
+    decision: {fileID: 11400000, guid: e03fb58a21e9b7543a3b66ba965f59b5, type: 2}
     companions:
     - {fileID: 11400000, guid: f97251db86cfa294e8ee218187ff06b1, type: 2}

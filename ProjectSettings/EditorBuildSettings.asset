@@ -15,12 +15,12 @@ EditorBuildSettings:
     path: Assets/Proyect/Scenes/ComicIntro.unity
     guid: fe9ccfa65fdacdb429b718f4b27e062b
   - enabled: 1
-    path: Assets/Proyect/Scenes/Intro.unity
+    path: Assets/Proyect/Scenes/OfficeFloor.unity
     guid: c8aab0b3e5506a44f809c3b6db5d9266
   - enabled: 1
-    path: Assets/Proyect/Scenes/IntroDecision/C_S.unity
+    path: Assets/Proyect/Scenes/Aisle.unity
     guid: 0469a71715d89cf4cb0fe3d1f6f6988c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Proyect/Scenes/IntroDecision/L_S.unity
     guid: e7c876ece4e25db4c93d238d3bad9d5c
   - enabled: 0

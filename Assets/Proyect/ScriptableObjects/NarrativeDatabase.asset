@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NarrativeDatabase
   nodes:
   - {fileID: 11400000, guid: 728ed2397edba0a46ba133e6b00cadcc, type: 2}
+  - {fileID: 11400000, guid: e77b01ce55697bb4190792c1b51bf56a, type: 2}

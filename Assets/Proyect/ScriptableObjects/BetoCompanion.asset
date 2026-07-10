@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9cbf64da90a73f4bb55235e6ac92e20, type: 3}
   m_Name: BetoCompanion
   m_EditorClassIdentifier: Assembly-CSharp::CompanionData
-  companionID: 
+  companionType: 1
   prefab: {fileID: 0}
