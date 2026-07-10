@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e067a76b4a46243bbd9aeda13154b7, type: 3}
+  m_Name: Office_Start
+  m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
+  nodeID: Office_Start
+  rules:
+  - route: '""'
+    sceneName: Intro
+    dialogue: {fileID: 11400000, guid: 7c92552e53c35d04f93c3e59663d6d63, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: d27f29c97e7cb5f43862c9ffa5418d6c, type: 2}
+    decision: {fileID: 11400000, guid: 11ff5ebf6ffd67b44b738d692fbcf78a, type: 2}
+    companions:
+    - {fileID: 11400000, guid: f97251db86cfa294e8ee218187ff06b1, type: 2}
