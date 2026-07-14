@@ -24,12 +24,12 @@ MonoBehaviour:
   - optionText: Bloquear el ascensor y llevarte a Beto contigo
     score: 10
     outcomeType: 1
-    comicSequence: {fileID: 11400000, guid: e1e8e2a50070f0f498a2350b9bce68e2, type: 2}
+    comicSequence: {fileID: 11400000, guid: 3a388ece62c1a174491fc425a22461a7, type: 2}
     nextNode: AisleBlocked
     deathFeedback: 
   - optionText: Ignorar a Beto y bajar por las escaleras
     score: 20
     outcomeType: 0
-    comicSequence: {fileID: 11400000, guid: 5e928f82d8af18249b08afa2df789a3e, type: 2}
+    comicSequence: {fileID: 11400000, guid: f2708e6c103ab1f4e8a406bb56191cf5, type: 2}
     nextNode: AisleBlocked
     deathFeedback: 
