@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Proyect/Scenes/Elevator.unity
     guid: 1dcbb89f8b9e3bb488944d006866dc8e
+  - enabled: 1
+    path: Assets/Proyect/Scenes/BlockedAisle.unity
+    guid: b226a985e1d4734459fe77f898f2599c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

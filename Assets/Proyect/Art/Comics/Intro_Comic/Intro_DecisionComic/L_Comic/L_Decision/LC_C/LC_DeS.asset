@@ -25,7 +25,7 @@ MonoBehaviour:
     score: 10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: a9fea5b704f86a04e9ce3bd29ff402aa, type: 2}
-    nextNode: BlockedAisle
+    nextNode: Stairs
     deathFeedback: 
   - optionText: Ir por las escaleras
     score: 20

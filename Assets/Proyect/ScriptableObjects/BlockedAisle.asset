@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e067a76b4a46243bbd9aeda13154b7, type: 3}
+  m_Name: BlockedAisle
+  m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
+  nodeID: BlockedAisle
+  rules:
+  - route: LCC
+    sceneName: BlockedAisle
+    dialogue: {fileID: 11400000, guid: f1a14c2ccacb4de42a478f9b03a3bf85, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: c776b64d6fb504d4aa98d4c697dc7c00, type: 2}
+    decision: {fileID: 11400000, guid: 1563c66ad3b7b45419aa42128c487929, type: 2}
+    companions:
+    - {fileID: 11400000, guid: b39de229bf4c3bb43b61e7b28e486c5b, type: 2}
+  - route: CCC
+    sceneName: BlockedAisle
+    dialogue: {fileID: 11400000, guid: d1c9701cfdf07e546ad8feedbddec943, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: d59ee7e64fcc3c64bb45433223b04b9a, type: 2}
+    decision: {fileID: 11400000, guid: fd84839cf316e374390904af890f8cb9, type: 2}
+    companions: []

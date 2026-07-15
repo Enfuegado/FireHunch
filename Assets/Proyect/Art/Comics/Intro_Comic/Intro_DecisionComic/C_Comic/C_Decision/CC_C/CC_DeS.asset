@@ -25,11 +25,11 @@ MonoBehaviour:
     score: 10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: 3a388ece62c1a174491fc425a22461a7, type: 2}
-    nextNode: AisleBlocked
+    nextNode: BlockedAisle
     deathFeedback: 
   - optionText: Ignorar a Beto y bajar por las escaleras
     score: 20
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: f2708e6c103ab1f4e8a406bb56191cf5, type: 2}
-    nextNode: AisleBlocked
+    nextNode: BlockedAisle
     deathFeedback: 
