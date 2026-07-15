@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: CCL_AD
   m_EditorClassIdentifier: Assembly-CSharp::AmbientDialogueSequence
   lines:
+  - speakerName: Beto
+    portrait: {fileID: 21300000, guid: f9a32a8cbfaa756428b704dee5a289bf, type: 3}
+    text: "\xBFC\xF3mo sab\xEDas que no hab\xEDa que usar el ascensor?"
+    duration: 3
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: Texto de marcos
+    text: "Porque yo s\xED fui a la capacitaci\xF3n"
     duration: 3

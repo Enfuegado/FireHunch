@@ -16,10 +16,10 @@ MonoBehaviour:
   lines:
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: "Algo no est\xE1 bien."
-  - speakerName: Valentina
-    portrait: {fileID: 21300000, guid: 118d734e196482849b4b51626676e530, type: 3}
-    text: "\xBFPorqu\xE9 lo dices?"
+    text: El fuego nos bloquea el camino
+  - speakerName: Beto
+    portrait: {fileID: 21300000, guid: f9a32a8cbfaa756428b704dee5a289bf, type: 3}
+    text: "Tal vez podr\xEDamos saltarlo"
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: Hay humo saliendo de la puerta.
+    text: O tal vez...

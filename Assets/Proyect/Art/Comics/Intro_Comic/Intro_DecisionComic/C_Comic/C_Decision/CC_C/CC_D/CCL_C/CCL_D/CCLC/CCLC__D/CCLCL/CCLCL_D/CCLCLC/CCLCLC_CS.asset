@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ComicSequence
   panels:
   - text: Parte 1
-    image: {fileID: 21300000, guid: eab014494d1535a44b9da2c586163280, type: 3}
+    image: {fileID: 21300000, guid: 93e8b515f3b78de4192b185fdb16ae9a, type: 3}
     duration: 0
   - text: Parte 2
-    image: {fileID: 21300000, guid: 7ae993429605bfc4fa391b939cce4d93, type: 3}
+    image: {fileID: 21300000, guid: d6dcf5991411eb24cb5364b922425705, type: 3}
     duration: 0
