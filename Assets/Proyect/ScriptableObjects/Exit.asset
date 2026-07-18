@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e067a76b4a46243bbd9aeda13154b7, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
+  nodeID: Exit
+  rules:
+  - route: LCCCL
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: d823874b65d14f749afd9869b07cf4ff, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 27a0efcfaa4f8e64cb4d7baa544314e2, type: 2}
+    decision: {fileID: 11400000, guid: 51485de522cda1d47b9bac26be50c562, type: 2}
+    companions:
+    - {fileID: 11400000, guid: b39de229bf4c3bb43b61e7b28e486c5b, type: 2}
+    - {fileID: 11400000, guid: f97251db86cfa294e8ee218187ff06b1, type: 2}
+  - route: LCCCC
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: ab643baee274cda40bfe3551d3a16125, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: c4dd327b5fe8a924aa62049aa4c22d7d, type: 2}
+    decision: {fileID: 11400000, guid: 8bb250a8f69bd314c840d713c44befbe, type: 2}
+    companions:
+    - {fileID: 11400000, guid: f97251db86cfa294e8ee218187ff06b1, type: 2}
+  - route: LCLLLL
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: 3693bfaa9618ad3459ddf240187568c6, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 33cde8efbf1ebe7459614ffe179c94d0, type: 2}
+    decision: {fileID: 11400000, guid: 7b3005e4e60630c44b76f76638700523, type: 2}
+    companions:
+    - {fileID: 11400000, guid: b39de229bf4c3bb43b61e7b28e486c5b, type: 2}
+  - route: LCLLLC
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: c70b06c12c0d9d44eab3f85410a455e6, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 955fb42ccdd2e3c4b964da217f0a3066, type: 2}
+    decision: {fileID: 11400000, guid: 711c6524eb3e7ae438cb1381b2479cfa, type: 2}
+    companions: []
+  - route: LCLLC
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: 59ed25be76c16cf41862b2b1453e39d2, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 419ca8b9ef1642f41a8f6cb39ab4fe42, type: 2}
+    decision: {fileID: 11400000, guid: b486a6f0b5eb6ee4fa218b6e9d2958a0, type: 2}
+    companions: []
+  - route: LCLCL
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: 0f4794f196b9c06408e5def1fc490956, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 275b73ced61cc1c49a7564d082921973, type: 2}
+    decision: {fileID: 11400000, guid: 473a5d6392ebf1a42bf1d0c4cfe4e27a, type: 2}
+    companions:
+    - {fileID: 11400000, guid: b39de229bf4c3bb43b61e7b28e486c5b, type: 2}
+    - {fileID: 11400000, guid: f97251db86cfa294e8ee218187ff06b1, type: 2}
+  - route: LCLCC
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: c531062c728ac364eaf314736cf23bc1, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 69bc930a8a450794cac99f8cf7e55089, type: 2}
+    decision: {fileID: 11400000, guid: c2992a52f23bfa04d8a18272b3555a3d, type: 2}
+    companions: []
+  - route: CCLCL
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: eb31189e5035e7c45b202d205a5c3c5c, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 9e9d921e7aea40e4488ddd811011d3bc, type: 2}
+    decision: {fileID: 11400000, guid: 9db302affc89af540a74d2d0a3116405, type: 2}
+    companions:
+    - {fileID: 11400000, guid: b39de229bf4c3bb43b61e7b28e486c5b, type: 2}
+    - {fileID: 11400000, guid: f97251db86cfa294e8ee218187ff06b1, type: 2}
+  - route: CCLCC
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: be57a5fe5c64b5e4c86a4aea1340921a, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 52e6344f396a5504aa8e13bfd607cd72, type: 2}
+    decision: {fileID: 11400000, guid: a020da96ef69406409fc0037d295df70, type: 2}
+    companions: []
+  - route: CCCCLL
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: cc9c119d5bd1e9045b906721e053ccb2, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: c14a771caf0bea146af3dfa7fd91ad0e, type: 2}
+    decision: {fileID: 11400000, guid: dc1f3080fede1294a9c17c0ebb71fb0e, type: 2}
+    companions:
+    - {fileID: 11400000, guid: f97251db86cfa294e8ee218187ff06b1, type: 2}
+  - route: CCCCLC
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: 00299b7a4283a5248845df4723352b69, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: ca1a53a3c543feb4e8ab7b05601c1a74, type: 2}
+    decision: {fileID: 11400000, guid: 5d6543824686d0b4ca5ce2beaf03895f, type: 2}
+    companions: []
+  - route: CCCCC
+    sceneName: Exit
+    dialogue: {fileID: 11400000, guid: e45906a43ea7a104cb8f7dfbc8470dbb, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: f1e62ab3cf4d9c44e9be1d82768a3584, type: 2}
+    decision: {fileID: 11400000, guid: ed220a7b49f1e024ba263e34d60d574b, type: 2}
+    companions: []

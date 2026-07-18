@@ -14,17 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
   nodeID: Stairs
   rules:
-  - route: LCLL
+  - route: LCL
     sceneName: Stairs
-    dialogue: {fileID: 11400000, guid: 357bf5c9022125e42b75f929116de86c, type: 2}
-    ambientDialogue: {fileID: 11400000, guid: 50a2c096f4305b747b5c93dce68bf39e, type: 2}
-    decision: {fileID: 11400000, guid: 5f6c8ba6651eb274bb6955ea31f240b5, type: 2}
-    companions:
-    - {fileID: 11400000, guid: f97251db86cfa294e8ee218187ff06b1, type: 2}
-  - route: LCLC
-    sceneName: Stairs
-    dialogue: {fileID: 11400000, guid: 0eba1a14a3dcabd418df7e114db6e201, type: 2}
-    ambientDialogue: {fileID: 11400000, guid: 99db62332b632874d912144c7ec182a9, type: 2}
-    decision: {fileID: 11400000, guid: 7790afa9820ecf34eb68273b02b75746, type: 2}
+    dialogue: {fileID: 11400000, guid: 2e4d1e4a685779c48999059586cff1a8, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 86f8a30c273b0b440b3023b85c836143, type: 2}
+    decision: {fileID: 11400000, guid: 2b3e9efb73ac90648a2c26e7bd85b716, type: 2}
     companions:
     - {fileID: 11400000, guid: f97251db86cfa294e8ee218187ff06b1, type: 2}

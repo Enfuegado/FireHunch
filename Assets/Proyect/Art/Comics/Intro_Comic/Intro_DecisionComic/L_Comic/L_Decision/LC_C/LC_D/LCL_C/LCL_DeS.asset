@@ -22,7 +22,7 @@ MonoBehaviour:
     nextNode: 
     deathFeedback: 'Nunca corras por las escaleras sin cuidado, intenta bajar de
       otra manera. '
-  - optionText: Usar la linterna del celular para pdoer ver y bajar
+  - optionText: Usar la linterna del celular para poder ver y bajar
     score: 10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: eadc527a216cef44dbc4b4846c6fcf3a, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e067a76b4a46243bbd9aeda13154b7, type: 3}
+  m_Name: ContinueRescue
+  m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
+  nodeID: ContinueRescue
+  rules:
+  - route: LCLLL
+    sceneName: ContinueRescue
+    dialogue: {fileID: 11400000, guid: bbfb3452aaff2cb4fab7fc3eb709fc7d, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: b99659fa33a3ddf428f66d19335f0c3e, type: 2}
+    decision: {fileID: 11400000, guid: c71221d512fe0fc43b2a2851c75dad81, type: 2}
+    companions: []
+  - route: CCCCL
+    sceneName: ContinueRescue
+    dialogue: {fileID: 11400000, guid: 6cc8c3308879c364b9da771d04eae7b4, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 0f14e3d524a416445a2230364392dd90, type: 2}
+    decision: {fileID: 11400000, guid: a44326b05a616164889ab77ed7cd7fdb, type: 2}
+    companions: []
