@@ -17,3 +17,9 @@ MonoBehaviour:
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
     text: "Oh no, Valentina est\xE1 atrapada"
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: Aunque estoy cerca de escapar...
+  - speakerName: Valentina
+    portrait: {fileID: 21300000, guid: 118d734e196482849b4b51626676e530, type: 3}
+    text: "Marcos, \xA1Ay\xFAdame por favor!"

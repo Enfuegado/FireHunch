@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: CCLC_AD
   m_EditorClassIdentifier: Assembly-CSharp::AmbientDialogueSequence
   lines:
+  - speakerName: Beto
+    portrait: {fileID: 21300000, guid: f9a32a8cbfaa756428b704dee5a289bf, type: 3}
+    text: Eso fue inteligente Marcos
+    duration: 3
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: Texto de marcos
-    duration: 3
+    text: No es nada
+    duration: 2

@@ -15,7 +15,7 @@ MonoBehaviour:
   question: "La situaci\xF3n de tu compa\xF1era no mejora, \xBFQu\xE9 har\xE1s?"
   timeLimit: 10
   options:
-  - optionText: Seguri intentando rescatarla
+  - optionText: Seguir intentando rescatarla
     score: 0
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: 3235deb94b51e7049a6985fb87e834c5, type: 2}

@@ -19,7 +19,7 @@ MonoBehaviour:
     score: -10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: 0696cd53332e0a744862a4b9d1e933f6, type: 2}
-    nextNode: 
+    nextNode: ContinueRescue
     deathFeedback: 
   - optionText: Priorizar tu supervivencia y escapar
     score: 10
