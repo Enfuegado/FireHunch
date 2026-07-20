@@ -40,3 +40,9 @@ MonoBehaviour:
     ambientDialogue: {fileID: 11400000, guid: b569122be7a78f8469b6ab171d086806, type: 2}
     decision: {fileID: 11400000, guid: 3fec4548838c985449f2b023b66bee07, type: 2}
     companions: []
+  - route: CCCC
+    sceneName: Rescue
+    dialogue: {fileID: 11400000, guid: 905443eefce1fa045bb5ec744b7a656d, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 60b448b53de35204ab51c29f6c70b5f5, type: 2}
+    decision: {fileID: 11400000, guid: eea68c0d886390e448dbf1a64b6d0ff4, type: 2}
+    companions: []
