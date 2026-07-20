@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d28a7672d91af2b4989eb2abc09a9cfe, type: 3}
-  m_Name: CCCCLCC_CS
+  m_Name: LCLLLCCF_CS
   m_EditorClassIdentifier: Assembly-CSharp::ComicSequence
   panels:
   - text: Parte 1
-    image: {fileID: 21300000, guid: 36b3b048ec4aab74ba8e18b8f54754bd, type: 3}
+    image: {fileID: 21300000, guid: 9c974c87d201b8f4c82ecc0425ad9bc6, type: 3}
     duration: 0
   - text: Parte 2
-    image: {fileID: 21300000, guid: 9a5eb7970c36fa74aa79e0ae46b1fe69, type: 3}
+    image: {fileID: 21300000, guid: d4c62fbddd41c95449830d798986c94b, type: 3}
     duration: 0
   decisionAfterComic: {fileID: 0}
-  endingComic: {fileID: 11400000, guid: 4db5595fa3941e242bac1be913b9aecb, type: 2}
-  endsWithResults: 0
+  endingComic: {fileID: 0}
+  endsWithResults: 1

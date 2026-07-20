@@ -19,3 +19,6 @@ MonoBehaviour:
   - text: Parte 2
     image: {fileID: 21300000, guid: 124faf1e6e4fb524cbd0ef3d65aa47b4, type: 3}
     duration: 0
+  decisionAfterComic: {fileID: 0}
+  endingComic: {fileID: 11400000, guid: b11bd187f1905d64cb60aeb025714b57, type: 2}
+  endsWithResults: 0
