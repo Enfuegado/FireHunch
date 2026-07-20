@@ -14,16 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
   question: "La situaci\xF3n de tu compa\xF1era no mejora, \xBFQu\xE9 har\xE1s?"
   timeLimit: 10
+  timeoutResult: 1
   options:
   - optionText: Seguir intentando rescatarla
-    score: 0
+    score: -10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: 3235deb94b51e7049a6985fb87e834c5, type: 2}
-    nextNode: 
+    nextNode: Exit
     deathFeedback: 
   - optionText: Dejarla y priorizar tu propia supervivencia
     score: 10
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: b33e01b4b84093744a21454d6559665e, type: 2}
-    nextNode: 
+    nextNode: Exit
     deathFeedback: 
