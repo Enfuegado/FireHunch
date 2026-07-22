@@ -34,15 +34,16 @@ MonoBehaviour:
     decision: {fileID: 11400000, guid: 3fec4548838c985449f2b023b66bee07, type: 2}
     companions:
     - {fileID: 11400000, guid: b39de229bf4c3bb43b61e7b28e486c5b, type: 2}
-  - route: CCLC
-    sceneName: Rescue
-    dialogue: {fileID: 11400000, guid: 8b04bc9a55399dd4db6b9c9901ae182f, type: 2}
-    ambientDialogue: {fileID: 11400000, guid: b569122be7a78f8469b6ab171d086806, type: 2}
-    decision: {fileID: 11400000, guid: 3fec4548838c985449f2b023b66bee07, type: 2}
-    companions: []
   - route: CCCC
     sceneName: Rescue
     dialogue: {fileID: 11400000, guid: 905443eefce1fa045bb5ec744b7a656d, type: 2}
     ambientDialogue: {fileID: 11400000, guid: 60b448b53de35204ab51c29f6c70b5f5, type: 2}
     decision: {fileID: 11400000, guid: eea68c0d886390e448dbf1a64b6d0ff4, type: 2}
     companions: []
+  - route: LCCC
+    sceneName: Rescue
+    dialogue: {fileID: 11400000, guid: 57944d8b9119a7b41bccf6197bcee788, type: 2}
+    ambientDialogue: {fileID: 11400000, guid: 02f123dd8c5fc65429a82f7e61eda132, type: 2}
+    decision: {fileID: 11400000, guid: 90a07be18ead2374694d2d668e92287f, type: 2}
+    companions:
+    - {fileID: 11400000, guid: f97251db86cfa294e8ee218187ff06b1, type: 2}
