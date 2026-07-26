@@ -12,23 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: LC_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  decisionID: LC
   question: "\xBFQu\xE9 hacer para llegar la primer piso?"
   timeLimit: 10
+  timeoutResult: 2
   options:
   - optionText: Usar el Ascensor
-    score: -10
     outcomeType: 2
     comicSequence: {fileID: 11400000, guid: 47468827812f330459db9295e1effe01, type: 2}
     nextNode: 
     deathFeedback: 'Nunca uses un ascensor en un incendio, usa las escaleras '
   - optionText: Bloquear el ascensor e ir por las escaleras
-    score: 10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: a9fea5b704f86a04e9ce3bd29ff402aa, type: 2}
     nextNode: Stairs
     deathFeedback: 
   - optionText: Ir por las escaleras
-    score: 20
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: c80dda44f4e0da346b1743aa5ec3a190, type: 2}
     nextNode: BlockedAisle

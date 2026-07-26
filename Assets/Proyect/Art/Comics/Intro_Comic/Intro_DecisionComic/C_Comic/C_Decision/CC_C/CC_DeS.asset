@@ -12,23 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: CC_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  decisionID: CC
   question: "\xBFQu\xE9 deber\xEDas hacer para bajar?"
   timeLimit: 10
+  timeoutResult: 2
   options:
   - optionText: Tomar el ascensor con Beto
-    score: -10
     outcomeType: 2
     comicSequence: {fileID: 11400000, guid: 3a388ece62c1a174491fc425a22461a7, type: 2}
     nextNode: 
     deathFeedback: Nunca intentes usar el ascensor en un incendio, usa las escaleras.
   - optionText: Bloquear el ascensor y llevarte a Beto contigo
-    score: 10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: 3a388ece62c1a174491fc425a22461a7, type: 2}
     nextNode: BlockedAisle
     deathFeedback: 
   - optionText: Ignorar a Beto y bajar por las escaleras
-    score: 20
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: f2708e6c103ab1f4e8a406bb56191cf5, type: 2}
     nextNode: BlockedAisle

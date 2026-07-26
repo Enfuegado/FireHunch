@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: LCC_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  decisionID: LCC
   question: "El fuego bloquea el camino \xBFC\xF3mo avanzar\xE1s?"
   timeLimit: 10
+  timeoutResult: 2
   options:
   - optionText: Saltar el fuego
-    score: -10
     outcomeType: 2
     comicSequence: {fileID: 11400000, guid: e8d223bd83c278b45a5b199f036fef61, type: 2}
     nextNode: 
     deathFeedback: 'Nunca te expongas al fuego de esa manera, busca otra manera de
       avanzar. '
   - optionText: Usar el extintor
-    score: 20
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: f0d0bf6a9a123984cba3484411b7cd95, type: 2}
     nextNode: Rescue

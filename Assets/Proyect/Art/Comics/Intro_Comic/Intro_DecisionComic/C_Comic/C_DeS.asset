@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: C_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  decisionID: C
   question: "El humo no te deja respirar, \xBFQu\xE9 deber\xEDas hacer?"
   timeLimit: 10
+  timeoutResult: 2
   options:
   - optionText: Avanzar corriendo para escapar del humo
-    score: -10
     outcomeType: 2
     comicSequence: {fileID: 11400000, guid: 02a292235be501e428ceb1737754c216, type: 2}
     nextNode: 
     deathFeedback: "No debes correr en un incendio, ag\xE1chate para evitar inhalar
       el humo en lo posible. "
   - optionText: Ir agachado para evitar inhalar el humo en lo posible
-    score: 10
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: 8af8908e970ffd84a9a43a7868b7e005, type: 2}
     nextNode: Elevator

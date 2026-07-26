@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: CCL_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  decisionID: CCL
   question: "El camino est\xE1 bloqueado por fuego, \xBFQu\xE9 har\xE1s?"
   timeLimit: 10
+  timeoutResult: 2
   options:
   - optionText: Saltar el fuego
-    score: -10
     outcomeType: 2
     comicSequence: {fileID: 11400000, guid: c182d34c31e084544bb80ddc7e942811, type: 2}
     nextNode: 
     deathFeedback: 'No te expongas al fuego en un incendio, busca otra alternativa. '
   - optionText: Usar el extintor
-    score: 10
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: 6796baf74f461794c97c4e61c990edbf, type: 2}
     nextNode: 

@@ -12,18 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: LCLL_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  decisionID: LCLL
   question: "Tu compa\xF1ero de trabajo est\xE1 en peligro, \xBFQu\xE9 har\xE1s?"
   timeLimit: 10
   timeoutResult: 1
   options:
   - optionText: Intentar salvarlo
-    score: -10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: b0f6a9045e5686a4d83860ecd2561750, type: 2}
     nextNode: ContinueRescue
     deathFeedback: 
   - optionText: Dejarlo y priorizar tu supervivencia
-    score: 10
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: 2688bb7e02194db4a9851ac26b43d73b, type: 2}
     nextNode: Exit

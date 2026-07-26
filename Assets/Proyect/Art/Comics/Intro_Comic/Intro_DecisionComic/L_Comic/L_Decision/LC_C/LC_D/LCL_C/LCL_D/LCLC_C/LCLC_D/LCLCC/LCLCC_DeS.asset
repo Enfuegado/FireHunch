@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: LCLCC_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  decisionID: LCLCC
   question: "\xBFPor d\xF3nde deber\xEDas salir?"
   timeLimit: 10
+  timeoutResult: 2
   options:
   - optionText: Salir por la puerta principal
-    score: -10
     outcomeType: 2
     comicSequence: {fileID: 11400000, guid: 0d10bb1e5deda55428614b9e1b00066c, type: 2}
     nextNode: 
     deathFeedback: 'Es peligroso usar la salida principal en un incendio por riesgo
       de backdraft, busca otra salida. '
   - optionText: Usar la salida de emergencia
-    score: 10
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: e18dc9e1e413bb54c81ae38b61cb36de, type: 2}
     nextNode: 

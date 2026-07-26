@@ -12,24 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: LCL_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  decisionID: LCL
   question: "No hay luz en las escaleras de emergencia, \xBFC\xF3mo procedes?"
   timeLimit: 10
+  timeoutResult: 2
   options:
   - optionText: "Bajar r\xE1pidamente"
-    score: -10
     outcomeType: 2
     comicSequence: {fileID: 11400000, guid: c615788dde2562d429d6927f869fcb82, type: 2}
     nextNode: 
     deathFeedback: 'Nunca corras por las escaleras sin cuidado, intenta bajar de
       otra manera. '
   - optionText: Usar la linterna del celular para poder ver y bajar
-    score: 10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: eadc527a216cef44dbc4b4846c6fcf3a, type: 2}
     nextNode: Rescue
     deathFeedback: 
   - optionText: Bajar sostenido del barandal
-    score: 20
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: b6d2e6cc69384724dab582b0828283cc, type: 2}
     nextNode: Rescue

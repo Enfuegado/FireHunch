@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: CCLC_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  decisionID: CCLC
   question: "Tu compa\xF1era de trabajo est\xE1 atrapada, \xBFQu\xE9 har\xE1s?"
   timeLimit: 10
+  timeoutResult: 2
   options:
   - optionText: Intentar ayudarla con ayuda de Beto
-    score: -10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: 77d3d9ad8822f86439415893a6afaf40, type: 2}
     nextNode: 
     deathFeedback: ' '
   - optionText: Priorizar tu supervivencia y escapar
-    score: 20
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: cd69a5d964f9d8045a53dd0d20edc290, type: 2}
     nextNode: 

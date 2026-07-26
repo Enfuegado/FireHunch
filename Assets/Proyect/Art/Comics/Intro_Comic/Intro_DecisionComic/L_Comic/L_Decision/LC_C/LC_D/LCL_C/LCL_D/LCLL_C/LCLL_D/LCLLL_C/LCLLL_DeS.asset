@@ -12,18 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: LCLLL_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  decisionID: LCLLL
   question: "La situaci\xF3n de tu compa\xF1ero no mejora, \xBFQu\xE9 har\xE1s? "
   timeLimit: 10
   timeoutResult: 1
   options:
   - optionText: Seguir intentando rescatarlo
-    score: -10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: ce26361c074ebb242b8369c11828cd01, type: 2}
     nextNode: Exit
     deathFeedback: 
   - optionText: Abandonarlo y priorizar tu supervivencia
-    score: 10
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: cd7cb406fcdb7fd4c9c0b9230bfa3fcd, type: 2}
     nextNode: Exit

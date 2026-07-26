@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: LCLC_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
+  decisionID: LCLC
   question: "Tu compa\xF1ero de trabajo est\xE1 atrapado, \xBFQu\xE9 har\xE1s?"
   timeLimit: 10
+  timeoutResult: 2
   options:
   - optionText: Priorizar tu supervivencia y escapar
-    score: 20
     outcomeType: 0
     comicSequence: {fileID: 11400000, guid: 1328317a35c37a847963a815cec1ead5, type: 2}
     nextNode: ContinueRescue
     deathFeedback: 
   - optionText: Arriesgarte e intentar salvarlo entre los dos
-    score: 10
     outcomeType: 1
     comicSequence: {fileID: 11400000, guid: 87e118b9cbe0147498e0aa71869d7617, type: 2}
     nextNode: ContinueRescue

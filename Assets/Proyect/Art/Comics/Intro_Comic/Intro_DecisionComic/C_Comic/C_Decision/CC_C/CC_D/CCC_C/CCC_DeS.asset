@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1d161cd4824364796bbdd1dd744c51, type: 3}
   m_Name: CCC_DeS
   m_EditorClassIdentifier: Assembly-CSharp::DecisionSequence
-  decisionID: 
+  decisionID: CCC
   question: "El fuego obstruye tu camino, \xBFQu\xE9 deber\xEDas hacer?"
   timeLimit: 10
   timeoutResult: 2
