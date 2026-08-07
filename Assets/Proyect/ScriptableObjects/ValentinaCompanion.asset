@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: ValentinaCompanion
   m_EditorClassIdentifier: Assembly-CSharp::CompanionData
   companionType: 0
-  prefab: {fileID: 9075558999301355997, guid: 59d9d0b56c8fdbc4fa8192d4bb3558c6, type: 3}
+  prefab: {fileID: 5432232810036481352, guid: fb48edf66e68be84bba15112540669a3, type: 3}
