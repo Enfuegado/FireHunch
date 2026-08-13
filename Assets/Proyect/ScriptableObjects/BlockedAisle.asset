@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: BlockedAisle
   m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
   nodeID: BlockedAisle
+  decisionReviewImage: {fileID: 21300000, guid: fb82a280d88f19742a69a6c67b7fa577, type: 3}
+  decisionFeedback: "Si el fuego es peque\xF1o y se cuenta con la capacitaci\xF3n
+    necesaria, utilizar un extintor puede permitir controlar el fuego y continuar
+    la evacuaci\xF3n de forma segura. Sin embargo, intentar saltar sobre las llamas
+    expone directamente al cuerpo al fuego y puede provocar quemaduras graves o impedir
+    la evacuaci\xF3n."
   rules:
   - route: LCC
     sceneName: BlockedAisle

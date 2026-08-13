@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Rescue
   m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
   nodeID: Rescue
+  decisionReviewImage: {fileID: 21300000, guid: 5f12569a0d5ced84291e734cc0e04606, type: 3}
+  decisionFeedback: "Durante una emergencia, la prioridad es ponerse a salvo y evacuar
+    de la zona de peligro. Intentar rescatar personalmente a alguien atrapado puede
+    poner en riesgo a ambas personas, por lo que es m\xE1s seguro continuar la evacuaci\xF3n
+    y alertar a los servicios de emergencia sobre la persona que necesita ayuda."
   rules:
   - route: LCLL
     sceneName: Rescue

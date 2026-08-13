@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
   nodeID: Exit
+  decisionReviewImage: {fileID: 21300000, guid: 342528ee06c360a49a9c421f69f1b3a5, type: 3}
+  decisionFeedback: "Durante una evacuaci\xF3n, es m\xE1s seguro utilizar una salida
+    de emergencia que exponerse a una zona donde existe riesgo de backdraft. Evitar
+    una abertura que pueda alimentar repentinamente un incendio con ox\xEDgeno reduce
+    el riesgo de una propagaci\xF3n violenta del fuego y permite continuar la evacuaci\xF3n
+    por una ruta m\xE1s segura."
   rules:
   - route: LCCCL
     sceneName: Exit

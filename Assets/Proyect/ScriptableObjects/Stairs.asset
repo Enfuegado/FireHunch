@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Stairs
   m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
   nodeID: Stairs
+  decisionReviewImage: {fileID: 21300000, guid: 4eebb5d1762a43444a8f65f20e135739, type: 3}
+  decisionFeedback: "En una escalera de emergencia sin iluminaci\xF3n, utilizar el
+    barandal permite mantener la estabilidad y orientarse durante el descenso. Usar
+    el celular puede reducir la atenci\xF3n sobre el entorno y dificultar la percepci\xF3n
+    de otros riesgos, mientras que bajar r\xE1pidamente aumenta la posibilidad de
+    tropezar, caer o perder el control."
   rules:
   - route: LCL
     sceneName: Stairs

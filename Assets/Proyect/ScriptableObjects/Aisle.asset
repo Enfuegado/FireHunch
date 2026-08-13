@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Aisle
   m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
   nodeID: Aisle
+  decisionReviewImage: {fileID: 21300000, guid: ca84afd9ab470b74089372d7bbabca25, type: 3}
+  decisionFeedback: "Cuando hay humo en un pasillo, es recomendable mantenerse agachado
+    y avanzar con precauci\xF3n. El humo tiende a acumularse en las zonas m\xE1s
+    altas, por lo que desplazarse cerca del suelo ayuda a reducir su inhalaci\xF3n
+    mientras se busca una salida segura."
   rules:
   - route: C
     sceneName: Aisle

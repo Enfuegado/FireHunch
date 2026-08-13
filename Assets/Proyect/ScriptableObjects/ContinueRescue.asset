@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: ContinueRescue
   m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
   nodeID: ContinueRescue
+  decisionReviewImage: {fileID: 21300000, guid: 5c4404e91956384468134af062f9420b, type: 3}
+  decisionFeedback: "Cuando un intento de rescate no est\xE1 dando resultado y la
+    situaci\xF3n contin\xFAa siendo peligrosa, insistir puede poner en riesgo la
+    propia vida sin mejorar las posibilidades de ayudar a la otra persona. En una
+    emergencia, es fundamental reconocer cu\xE1ndo retirarse, priorizar la propia
+    seguridad y solicitar ayuda especializada."
   rules:
   - route: LCLLL
     sceneName: ContinueRescue

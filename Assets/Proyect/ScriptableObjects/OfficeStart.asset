@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: OfficeStart
   m_EditorClassIdentifier: Assembly-CSharp::NarrativeNode
   nodeID: OfficeFloor
+  decisionReviewImage: {fileID: 21300000, guid: 4f5621f7664ba2c428ee40c1e2b2c495, type: 3}
+  decisionFeedback: "Ante una puerta que presenta humo, lo m\xE1s seguro es no intentar
+    abrirla ni acercarse para comprobar su temperatura. Activar la alarma y evacuar
+    permite alertar a las dem\xE1s personas y alejarse de una posible zona de incendio,
+    reduciendo el riesgo de exposici\xF3n al humo y al fuego."
   rules:
   - route: 
     sceneName: OfficeFloor
