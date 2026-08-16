@@ -15,5 +15,13 @@ MonoBehaviour:
   lines:
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: Ya casi, solo debo dirigirme a la salida
-    duration: 3
+    text: "No puedo distraerme... Beto encontrar\xE1 la forma de escapar."
+    duration: 3.8
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: Debo apurarme antes de que alguna salida se bloquee.
+    duration: 3.7
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: "\xBFQu\xE9 es eso que est\xE1 adelante?"
+    duration: 2.6

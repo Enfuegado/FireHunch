@@ -16,4 +16,7 @@ MonoBehaviour:
   lines:
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: Las escaleras... Y Beto intentando usar el ascensor...
+    text: 'Las escaleras... '
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: Y Beto intentando usar el ascensor...
