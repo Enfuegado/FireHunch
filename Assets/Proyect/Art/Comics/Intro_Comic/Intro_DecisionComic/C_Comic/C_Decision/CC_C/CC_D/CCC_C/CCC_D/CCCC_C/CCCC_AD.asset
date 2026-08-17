@@ -15,5 +15,10 @@ MonoBehaviour:
   lines:
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: No debo distraerme, debo priorizar sobrevivir
-    duration: 3
+    text: "Qu\xE9 bueno que asist\xED a la capacitaci\xF3n contra incendios, no como
+      el resto de gente ac\xE1."
+    duration: 5.8
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: "Ya casi salgo, espero que nada m\xE1s se interponga."
+    duration: 4.2

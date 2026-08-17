@@ -15,5 +15,13 @@ MonoBehaviour:
   lines:
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: Es una pena, pero debo priorizar mi supervivencia
+    text: Es una pena, la verdad...
     duration: 3
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: Pero cada uno de nosotros debe velar por su propia supervivencia.
+    duration: 6.4
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: "Esta no es una historia de h\xE9roes, es una historia REAL."
+    duration: 5.6

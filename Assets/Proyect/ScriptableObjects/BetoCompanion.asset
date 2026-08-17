@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: BetoCompanion
   m_EditorClassIdentifier: Assembly-CSharp::CompanionData
   companionType: 1
-  prefab: {fileID: 7630773234358069599, guid: 045125d358c2eea469b79aedf47abd5d, type: 3}
+  prefab: {fileID: 5432232810036481352, guid: fb48edf66e68be84bba15112540669a3, type: 3}

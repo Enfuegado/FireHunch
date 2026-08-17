@@ -15,9 +15,14 @@ MonoBehaviour:
   lines:
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: "Que horror lo que pas\xF3"
-    duration: 2
+    text: No puedo creer que Valentina haya muerto.
+    duration: 3
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: Pero no debo detenerme, debo sobrevivir...
+    text: "Qu\xE9 p\xE9sima idea fue usar el celular en lugar de ir agarrados del
+      barandal."
+    duration: 4
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: Pero no debo detenerme, debo escapar cuanto antes...
     duration: 3

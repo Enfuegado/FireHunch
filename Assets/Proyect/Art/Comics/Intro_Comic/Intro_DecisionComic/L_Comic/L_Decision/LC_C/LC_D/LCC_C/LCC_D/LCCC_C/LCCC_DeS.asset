@@ -22,8 +22,12 @@ MonoBehaviour:
     comicSequence: {fileID: 11400000, guid: cc6323ffc53f6ed4986edba5ebf7cb17, type: 2}
     nextNode: Exit
     deathFeedback: 
+    reviewImage: {fileID: 0}
+    reviewFeedback: 
   - optionText: Arriesgarte en intentar salvarlo entre los dos
-    outcomeType: 0
+    outcomeType: 1
     comicSequence: {fileID: 11400000, guid: 8ffec3de653936e49b886426da2d56c7, type: 2}
     nextNode: Exit
     deathFeedback: 
+    reviewImage: {fileID: 0}
+    reviewFeedback: 

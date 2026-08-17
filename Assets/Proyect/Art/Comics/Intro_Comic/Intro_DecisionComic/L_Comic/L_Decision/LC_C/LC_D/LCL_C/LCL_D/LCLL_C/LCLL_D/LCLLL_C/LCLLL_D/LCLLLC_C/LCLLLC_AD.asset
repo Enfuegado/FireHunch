@@ -15,5 +15,17 @@ MonoBehaviour:
   lines:
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: "Es lamentable... Pero debo sobrevivir sin importar qu\xE9..."
+    text: "Lo intent\xE9, s\xE9 que lo intent\xE9..."
+    duration: 4
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: "No pod\xEDa salvarlo, \xEDbamos a morir los dos."
+    duration: 4
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: "Debo sobrevivir, no importa qu\xE9..."
+    duration: 4
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: Lo siento, Beto... Valentina...
     duration: 4
