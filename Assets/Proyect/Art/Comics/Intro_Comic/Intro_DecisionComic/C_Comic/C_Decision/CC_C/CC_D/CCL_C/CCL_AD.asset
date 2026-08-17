@@ -16,8 +16,20 @@ MonoBehaviour:
   - speakerName: Beto
     portrait: {fileID: 21300000, guid: f9a32a8cbfaa756428b704dee5a289bf, type: 3}
     text: "\xBFC\xF3mo sab\xEDas que no hab\xEDa que usar el ascensor?"
-    duration: 3
+    duration: 4.1
   - speakerName: Marcos
     portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
-    text: "Porque yo s\xED fui a la capacitaci\xF3n"
-    duration: 3
+    text: "Porque yo s\xED fui a la capacitaci\xF3n."
+    duration: 3.3
+  - speakerName: Beto
+    portrait: {fileID: 21300000, guid: f9a32a8cbfaa756428b704dee5a289bf, type: 3}
+    text: "\xBFC\xF3mo no te aburriste?"
+    duration: 2.7
+  - speakerName: Marcos
+    portrait: {fileID: 21300000, guid: 96d4161f63615044db4a2467afea0a3d, type: 3}
+    text: Agradece que no es un terremoto.
+    duration: 2.8
+  - speakerName: Beto
+    portrait: {fileID: 21300000, guid: f9a32a8cbfaa756428b704dee5a289bf, type: 3}
+    text: "\xBFTe imaginas?"
+    duration: 1.5
